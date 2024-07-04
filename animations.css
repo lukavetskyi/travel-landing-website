@@ -1,0 +1,56 @@
+@keyframes slideFromRight {
+  from {
+    left: 5000px
+  }
+
+  to {
+    left: 0;
+  }
+}
+
+main>.decoration>img {
+  animation-name: slideFromRight;
+  animation-duration: 2s;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+@keyframes airplaneFly {
+  from {
+    top: calc(var(--top) + 200px);
+    right: calc(var(--right) + 200px);
+    scale: 0.2;
+  }
+
+  to {
+    top: var(--top);
+    right: var(--right);
+    scale: 1;
+  }
+}
+
+main>.decoration::after,
+main>.decoration::before {
+  animation-name: airplaneFly;
+  animation-duration: 2s;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+#destinations-section>.cards>.card {
+  transition-duration: .5s;
+  transition-timing-function: easy;
+  transition-property: scale filter;
+}
+
+#destinations-section>.cards>.card:hover {
+  transform: scale(1.1) !important;
+  filter: brightness(1) !important;
+}
+
+#destinations-section>.cards:has(.card:hover) .card {
+  filter: brightness(0.2);
+  transform: scale(0.8);
+}

@@ -1,0 +1,226 @@
+@media (max-width: 1350px) {
+  main>.decoration {
+    display: none;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main>h1,
+  main>p {
+    max-width: unset;
+    width: 75%;
+    text-align: center;
+  }
+
+  main>h2 {
+    text-align: center;
+  }
+
+  main>p {
+    width: 65%;
+  }
+
+  #category-section {
+    margin-top: 100px
+  }
+
+  #category-section>.cards {
+    margin-top: unset;
+  }
+}
+
+@media (max-width: 1250px) {
+  body {
+    padding: 47px 70px;
+  }
+
+  #about-us-section>div:last-child>.cards>.card>img {
+    top: unset;
+    left: unset;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+@media (max-width: 1150px) and (min-width: 800px),
+(max-width:550px) {
+  #step-section>.big-card>.small-card {
+    right: 0;
+    bottom: -140px;
+  }
+}
+
+@media (max-width: 1100px) {
+  #destinations-section>.cards>.card:last-child::after {
+    content: unset;
+  }
+}
+
+@media (max-width: 1050px) {
+  #destinations-section>.cards {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 1000px) {
+  #category-section>.cards>.card::after {
+    background: unset !important;
+  }
+}
+
+@media (max-width: 950px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  main {
+    margin-top: 50px;
+  }
+
+  #about-us-section>div:first-child>h1 {
+    font-size: var(--fs-xl);
+  }
+
+  #category-section>#pluses {
+    display: none;
+  }
+
+  #about-us-section>div:first-child>div {
+    margin-top: unset;
+  }
+}
+
+@media (max-width: 900px) {
+  #step-section>.steps>h1 {
+    font-size: var(--fs-xl);
+  }
+
+  #step-section {
+    gap: 50px;
+  }
+
+  #about-us-section {
+    flex-direction: column;
+    align-items: center;
+    gap: unset;
+  }
+
+  #about-us-section>div:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #about-us-section>div:first-child>h2 {
+    text-align: center;
+  }
+
+  #about-us-section>div:first-child>h1 {
+    max-width: unset;
+  }
+}
+
+@media (max-width: 800px) {
+  header>nav {
+    gap: 40px;
+  }
+
+  main>h1 {
+    font-size: var(--fs-2xl);
+    line-height: 60px;
+  }
+
+  .underline::after {
+    left: -80px;
+    bottom: 8px;
+  }
+
+  #category-section>.cards {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  #destinations-section>.cards {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #step-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #step-section>.steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #step-section>.steps>h1 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 700px) {
+  header>nav {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  header>nav>a {
+    flex: 1 1 110px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .underline::after {
+    content: unset
+  }
+
+  main>h1,
+  main>p {
+    width: unset;
+  }
+
+  #cta {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #step-section {
+    margin-top: 100px;
+  }
+
+  #about-us-section {
+    margin-top: 150px;
+  }
+
+  #about-us-section>div:first-child>h1 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 550px) {
+  main>h2 {
+    font-size: var(--fs-medium);
+  }
+
+  #about-us-section {
+    margin-top: 250px;
+  }
+
+  #category-section>div>h1,
+  #destinations-section>h1 {
+    font-size: var(--fs-xl);
+  }
+}
