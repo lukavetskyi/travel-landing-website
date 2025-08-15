@@ -2,7 +2,7 @@
 
 ### Template link: https://www.figma.com/community/file/993910904620677970
 
-### Preview link: https://lukavetskyi.github.io/travel-landing-website/
+### Preview link: https://mrhlebusheck.github.io/travel-landing-website/
 
 
 
